@@ -29,7 +29,18 @@ DroneMedix is a revolutionary platform that delivers medicines to your doorstep 
 
 - **Drone Delivery**: Simulated concept for now, aiming to implement real drone deliveries.
 
+## Contact Information
 
+For any queries or collaboration opportunities, feel free to reach out:
+
+- **Name**: Soham S Kulkarni
+- **Email**: [sohamkulkarni1340@gmail.com](mailto:sohamkulkarni1340@gmail.com)
+- **Phone**: +91-9423446043
+- **LinkedIn**: [Soham Kulkarni](https://www.linkedin.com/in/soham-kulkarni-63b6b3250/)
+- **LeetCode**: [sohamkulkarni1340](https://leetcode.com/u/sohamkulkarni1340/)
+- **GeeksforGeeks**: [sohamkulkvzhk](https://www.geeksforgeeks.org/user/sohamkulkvzhk/)
+
+Feel free to contact me for any questions or feedback regarding this project!
 
 ## Installation
 
@@ -60,17 +71,6 @@ To add medicines to the database, run:
 npm run menu
 Edit items.csv file under assets/csv to change food items.
 
-## Contact Information
 
-For any queries or collaboration opportunities, feel free to reach out:
-
-- **Name**: Soham S Kulkarni
-- **Email**: [sohamkulkarni1340@gmail.com](mailto:sohamkulkarni1340@gmail.com)
-- **Phone**: +91-9423446043
-- **LinkedIn**: [Soham Kulkarni](https://www.linkedin.com/in/soham-kulkarni-63b6b3250/)
-- **LeetCode**: [sohamkulkarni1340](https://leetcode.com/u/sohamkulkarni1340/)
-- **GeeksforGeeks**: [sohamkulkvzhk](https://www.geeksforgeeks.org/user/sohamkulkvzhk/)
-
-Feel free to contact me for any questions or feedback regarding this project!
 
 
