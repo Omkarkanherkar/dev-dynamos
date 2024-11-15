@@ -50,6 +50,13 @@ The project aims to:
 - Ensure safety by minimizing human contact through drone technology.
 - Provide fast and reliable delivery services for medicines.
 
+## 🚀 Future Scope
+
+- **AI-Driven Drone Training**: 
+   - Use AI to improve drone navigation, allowing smarter flight paths, better obstacle avoidance, and autonomous decision-making.
+  
+- **Real-Time Tracking**: 
+   - Implement real-time tracking for users to monitor their deliveries, with updates on drone status, location, and estimated delivery time.
 
 
 ## Installation
