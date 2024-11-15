@@ -8,8 +8,9 @@ DroneMedix is a revolutionary platform that delivers medicines to your doorstep 
 - **Dynamic Product Listings**: Easily browse through a wide variety of medicines.
 - **Login System**: Personalized user profiles with order history and account management.
 - **Cart Management**: Add, remove, and review your orders in real time.
-- **Responsive Design**: Optimized for both desktop and mobile devices for a smooth experience on any screen.
 
+## Screenshots
+- **Added in Website Images Folder in the Repository**.
 
 ## 📱 Technologies Used
 
@@ -35,10 +36,8 @@ For any queries or collaboration opportunities, feel free to reach out:
 
 - **Name**: Soham S Kulkarni
 - **Email**: [sohamkulkarni1340@gmail.com](mailto:sohamkulkarni1340@gmail.com)
-- **Phone**: +91-9423446043
 - **LinkedIn**: [Soham Kulkarni](https://www.linkedin.com/in/soham-kulkarni-63b6b3250/)
-- **LeetCode**: [sohamkulkarni1340](https://leetcode.com/u/sohamkulkarni1340/)
-- **GeeksforGeeks**: [sohamkulkvzhk](https://www.geeksforgeeks.org/user/sohamkulkvzhk/)
+
 
 Feel free to contact me for any questions or feedback regarding this project!
 
