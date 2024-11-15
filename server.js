@@ -36,6 +36,10 @@ app.use("/js", express.static(__dirname + "/public/js/"));
 app.use("/img", express.static(__dirname + "/public/img/"));
 app.use("/assets", express.static(__dirname + "/assets/"));
 
+
+
+
+
 // Express Parsers
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));

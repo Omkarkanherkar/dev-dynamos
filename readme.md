@@ -1,23 +1,21 @@
-# SnackSizzle
-SnackSizzle is your go-to platform for ordering food online from your favorite restaurants, hassle-free.
 
-## Getting Started
 
-These are the instructions to clone and run this project in your local machine for developement and testing purpose
+
 
 ### Prerequisites
 
 - Node
 - Git
 - MongoDB
+- Express
 
 ### Installation
 
 1. First of all, Clone this repository & navigate to the directory
 
 ```
-git clone https://github.com/sohamsk13/SnackSizzle.git
-cd SnackSizzle
+git clone https://github.com/sohamsk13/DroneMedix.git
+
 ```
 
 2. Install the Dependencies
