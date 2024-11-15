@@ -30,31 +30,40 @@ DroneMedix is a revolutionary platform that delivers medicines to your doorstep 
 - **Drone Delivery**: Simulated concept for now, aiming to implement real drone deliveries.
 
 
-Prerequisites
-Node
-Git
-MongoDB
-Express
-Installation
-First of all, Clone this repository & navigate to the directory
-git clone https://github.com/sohamsk13/DroneMedix.git
 
-Install the Dependencies
+## Installation
+
+First of all, clone this repository & navigate to the directory:
+```bash
+
+git clone https://github.com/sohamsk13/DroneMedix.git
+Install the dependencies:
+
+bash
 npm install
 Running Locally
-First Create .env file in root directory using the following content and make changes if required.
+First, create a .env file in the root directory using the following content and make changes if required:
+
+env
 PORT=8080
 MONGO_URI="YourMongoDBuri"
 TOKEN_SECRET="JwtSecret"
-Starting the Server
-npm start
-or
-npm run dev
-Adding New Medicines to Database Collection 
-To add Medicines to database run
+Starting the server:
 
+bash
+npm start
+# or
+npm run dev
+Adding New Medicines to Database Collection
+To add medicines to the database, run:
+
+bash
 npm run menu
 Edit items.csv file under assets/csv to change food items.
 
 Author
-@sohamsk13 - Designing & Developement
+Soham Kulkarni - Designing & Development
+
+Email: sohamsk13@example.com
+
+LinkedIn: Soham Kulkarni
