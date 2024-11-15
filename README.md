@@ -3,12 +3,12 @@ DroneMedix is a revolutionary platform that delivers medicines to your doorstep 
 
 ## 🚀 Features
 
-Drone-Powered Delivery: Quick and efficient delivery of medicines.
-User-Friendly Interface: Intuitive navigation for seamless ordering.
-Dynamic Product Listings: Browse through a variety of medicines with ease.
-Login System: Personalized profiles with order history.
-Cart Management: Add, remove, and review your orders in real time.
-Responsive Design: Optimized for desktop and mobile devices
+-**Drone-Powered Delivery**: Quick and efficient delivery of medicines.
+-**User-Friendly Interface**: Intuitive navigation for seamless ordering.
+-**Dynamic Product Listings**: Browse through a variety of medicines with ease.
+-**Login System**: Personalized profiles with order history.
+-**Cart Management**: Add, remove, and review your orders in real time.
+-**Responsive Design**: Optimized for desktop and mobile devices
 
 ## 📱 Technologies Used
 
