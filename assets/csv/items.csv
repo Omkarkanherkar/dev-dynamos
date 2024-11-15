@@ -1,0 +1,11 @@
+﻿itemId,name,price,serve,unit,image,category
+
+
+
+
+15,Advil,150,1,Tablet,/img/menu/Advil.webp,Cold & Flu
+16,Clindamycin,150,1,Tablet,/img/menu/Clindamycin.webp,Antibiotic
+17,Diazepam,250,1,Tablet,/img/menu/Diazepam.webp,Anxiety
+18,Loratadine,60,1,Tablet,/img/menu/Loratadine.webp,Allergy
+19,Montelukast,130,1,Tablet,/img/menu/Montelukast.webp,Asthma
+20,Levothyroxine,180,1,Tablet,/img/menu/Levothyroxine.webp,Thyroid

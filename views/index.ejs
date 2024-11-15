@@ -1,0 +1,194 @@
+<!-- Header with dark gray background and light text -->
+<header class="primary-header container" style="background-color: #1A1A19;">
+  <nav class="primary-navigation">
+    <ul role="list" class="nav-list">
+      <li><a href="/" style="color: #F6FCDF;">Home</a></li>
+      <li><a href="/menu" style="color: #F6FCDF;">Medicines</a></li>
+    </ul>
+  </nav>
+  <div class="icons">
+    <a href="/menu/search" class="icon-hover" style="color: #F6FCDF;">
+      <i class="fa-solid fa-magnifying-glass icon"></i>
+    </a>
+    <% if(user){ %>
+      <div class="profile">
+        <div id="profileBtn" class="icon-hover" style="color: #F6FCDF;">
+          <i class="fa-solid fa-user icon"></i>
+        </div>
+        <div class="profile__menu">
+          <ul role="list" class="menu__list">
+            <li><a href="#" style="color: #31511E;"><%= user.name %></a></li>
+            <li><a href="/orders" style="color: #31511E;">Orders</a></li>
+            <li><a href="/user/logout" style="color: #31511E;">Logout</a></li>
+          </ul>
+        </div>
+      </div>
+      <a href="/cart" class="cart icon-hover" style="color: #F6FCDF;">
+        <i class="fa-solid fa-cart-shopping icon"></i>
+        <% if(cart) {%>
+          <span class="cart__count" id="cartCount" style="color: #F6FCDF;"> <%= cart.items.length %> </span>
+        <% } else { %>
+          <span class="cart__count" id="cartCount" style="color: #F6FCDF;">0</span>
+        <% } %>
+      </a>
+    <% } else { %>
+      <a href="/user/login" class="login__btn" style="color: #1A1A19; background-color: #859F3D;">Login</a>
+    <% } %>
+  </div>
+</header>
+
+<main>
+  <!-- Hero Section with medium green CTA button -->
+  <section class="container" style="background-color: #F6FCDF;">
+    <div class="even-columns hero-space">
+      <div class="content">
+        <h1 class="hero-title" style="color: #31511E;">On-Demand Drone Delivery</h1>
+        <p class="hero__tagline" style="color: #333;">
+          Get your essentials delivered quickly and easily with our drone-powered service.
+        </p>
+        <a href="/menu" class="button hero-cta" style="background-color: #18cc30; color: #F6FCDF;">Order Medicines </a>
+      </div>
+      <div class="image">
+        <img src="/img/front.png" class="hero-image" alt="Drone" width="600" height="400" />
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Category Section with dark green title and medium green buttons -->
+  <section>
+    <div class="container category-wrapper" style="background-color: #F6FCDF;">
+      <div class="even-rows">
+        <div class="menu">
+          <h2 class="menu-title" style="color: #31511E;">Our Medicines</h2>
+          <a href="/menu" class="button" style="background-color: #859F3D; color: #F6FCDF;">See all</a>
+        </div>
+        <div class="category-grid items">
+          <div class="category-item">
+            <a href="#" class="category-items">
+              <img src="/img/cough.webp" class="category-img" alt="Cough Syrup" />
+            </a>
+            <h3 class="category-title">Cough Syrup</h3>
+          </div>
+          <div class="category-item">
+            <a href="#" class="category-items">
+              <img src="/img/paracetamol.webp" class="category-img" alt="Paracetamol" />
+            </a>
+            <h3 class="category-title">Paracetamol</h3>
+          </div>
+          <div class="category-item">
+            <a href="#" class="category-items">
+              <img src="/img/peni.webp" class="category-img combo" alt="Penicillin" />
+            </a>
+            <h3 class="category-title">Penicillin</h3>
+          </div>
+          <div class="category-item">
+            <a href="#" class="category-items">
+              <img src="/img/Aspirin.png" class="category-img fries" alt="Aspirin" />
+            </a>
+            <h3 class="category-title">Aspirin</h3>
+          </div>
+          <div class="category-item">
+            <a href="#" class="category-items">
+              <img src="/img/crocine.webp" class="category-img" alt="Crocine" />
+            </a>
+            <h3 class="category-title">Crocine</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+
+  <!-- Contact Section with dark green highlights and medium green buttons -->
+  <section>
+    <div class="container section-third" style="background-color: #F6FCDF;">
+      <div class="order-cta2">
+        <div class="img-wrapper">
+          <img class="secondary-image" src="/img/customer.webp" alt="AI" height="300" width="800" />
+        </div>
+        <div class="cta">
+          <h2 class="cta-title" style="color: #31511E;">
+            Get what you need, when you need it—delivered by drone in a flash.
+          </h2>
+          <p class="cta-tagline" style="color: #333;">
+            Instant Delivery, Anytime
+          </p>
+          <form action="#" class="city__form">
+            <input type="text" placeholder="Enter your City" style="border-color: #31511E;" />
+            <button type="submit" class="button square-button" style="background-color: #859F3D; color: #F6FCDF;">
+              Find
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="contact-flex container" style="background-color: #F6FCDF;">
+      <div class="write-us">
+        <div class="write-bg"></div>
+        <form action="#" class="form-wrapper">
+          <h3 class="write-title" style="color: #31511E;">Write to Us</h3>
+          <input type="text" placeholder="Enter your Name" style="border-color: #31511E;" />
+          <input type="email" placeholder="Enter your Email" style="border-color: #31511E;" />
+          <textarea
+            name="message"
+            id="message"
+            cols="20"
+            rows="2"
+            placeholder="Your Message"
+            style="border-color: #31511E;"
+          ></textarea>
+          <button type="submit" class="button square-button2" style="background-color: #859F3D; color: #F6FCDF;">
+            Submit
+          </button>
+        </form>
+      </div>
+      <div class="contactus">
+        <h3 class="contactus-title" style="color: #31511E;">Contact Us</h3>
+        <ul role="list" class="contact-details">
+          <li>
+            <i class="fa-solid fa-envelope" style="color: #31511E;"></i>
+            <a
+              class="details"
+              href="mailto:sohamkulkarni1340@gmail.com"
+              target="_blank"
+              style="color: #31511E;"
+              >sohamkulkarni1340@gmail.com</a
+            >
+          </li>
+          <li>
+            <i class="fa-solid fa-phone" style="color: #31511E;"></i>
+            <a class="details" href="tel:+917404250103" target="_self" style="color: #31511E;">+91 9423446043</a>
+          </li>
+          <li>
+            <i class="fa-solid fa-globe" style="color: #31511E;"></i>
+            <a class="details" target="_blank" style="color: #31511E;">Pune, India</a>
+          </li>
+          <li>
+            <i class="fa-brands fa-github" style="color: #31511E;"></i>
+            <a
+              class="details"
+              href="https://github.com/sohamsk13"
+              target="_blank"
+              style="color: #31511E;"
+              >Github</a
+            >
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+</main>
+
+<!-- Footer with dark gray background and light text -->
+<footer class="primary__footer" style="background-color: #1A1A19;">
+  <div class="copyright-box">
+    <p class="copyright-text" style="color: #F6FCDF;">Created By Soham | All Rights Reserved!</p>
+  </div>
+</footer>
+
+<!-- Scripts -->
+<script src="/js/index.js"></script>

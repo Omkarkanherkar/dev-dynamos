@@ -1,0 +1,69 @@
+<header class="primary-header container" style="background-color: #13d213; color: #FFFFFF;">
+  <nav class="primary-navigation a">
+    <ul role="list" class="nav-list" style="list-style-type: none; display: flex; justify-content: space-around;">
+      <li><a href="/" style="text-decoration: none; color: #FFFFFF; padding: 10px 15px; font-weight: bold;">Home</a></li>
+      <li><a href="/menu" style="text-decoration: none; color: #FFFFFF; padding: 10px 15px; font-weight: bold;">Medicines</a></li>
+    </ul>
+  </nav>
+  <div class="icons" style="display: flex; justify-content: space-around; align-items: center;">
+    <a href="/menu/search" class="icon-hover" style="color: #FFFFFF;"><i class="fa-solid fa-magnifying-glass icon"></i></a>
+    <div class="profile">
+      <div id="profileBtn" class="icon-hover" style="color: #FFFFFF;">
+        <i class="fa-solid fa-user icon"></i>
+      </div>
+      <div class="profile__menu" style="display: none; background-color: #2e8b2e; border-radius: 5px; position: absolute; top: 40px; right: 0;">
+        <ul role="list" class="menu__list">
+          <li><a href="#" style="color: #FFFFFF;"><%= user.name %></a></li>
+          <li><a href="/orders" style="color: #FFFFFF;">Orders</a></li>
+          <li><a href="/user/logout" style="color: #FFFFFF;">Logout</a></li>
+        </ul>
+      </div>
+    </div>
+    <a href="/cart" class="cart icon-hover" style="color: #FFFFFF;">
+      <i class="fa-solid fa-cart-shopping icon"></i>
+      <% if(cart) { %>
+        <span class="cart__count" id="cartCount" style="background-color: #2e8b2e; color: white; padding: 0 5px; border-radius: 50%;"> <%= cart.items.length %> </span>
+      <% } else { %>
+        <span class="cart__count" id="cartCount" style="background-color: #2e8b2e; color: white; padding: 0 5px; border-radius: 50%;">0</span>
+      <% } %>
+    </a>
+  </div>
+</header>
+
+<main>
+  <section class="menu container" style="background-color: #F6FCDF; padding: 20px;">
+    <h2 class="section__title" style="font-size: 2rem; font-weight: bold; color: #13d213;">Medicines</h2>
+    <div class="menu__grid" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 20px;">
+      <% items.forEach((item) => { %>
+      <div class="menu__item menu__item-shadow" style="background-color: #e0f7e0; color: #1A1A19; border-radius: 10px; padding: 20px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); border: 2px solid #2e8b2e;">
+        <div class="item__header">
+          <img src="<%= item.image %>" class="item__image" alt="<%= item.name %>" style="width: 100%; border-radius: 10px;" />
+        </div>
+        <div class="item__body">
+          <h4 class="item__name" style="font-size: 1.2rem; font-weight: bold; color: #2e8b2e;"><%= item.name %></h4>
+          <div class="info__add__wrapper" style="display: flex; justify-content: space-between; align-items: center;">
+            <div class="info__wrapper">
+              <!-- Price in dark color -->
+              <p class="item__price" style="font-size: 1rem; font-weight: bold; color: #333333;">&#8377;<%= item.price %></p>
+              <p class="item__unit" style="color: #2e8b2e;">
+                <% if (item.unit == "Plate" || item.unit == "Piece" || item.unit == "Glass" || item.unit == "Cup" || item.unit == "Pound") { %>
+                  <%= item.unit %>
+                <% } else { %>
+                  <%= item.serve %> <%= item.unit %>
+                <% } %>
+              </p>
+            </div>
+            <div class="add__wrapper">
+              <input type="hidden" id="itemId" value="<%= item.itemId %>">
+              <button class="item__add" style="background-color: #13d213; color: #FFFFFF; border: none; padding: 10px 15px; cursor: pointer; border-radius: 5px;">+</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <% }) %>
+    </div>
+  </section>
+</main>
+
+<!-- Scripts -->
+<script src="/js/menu.js"></script>
