@@ -57,13 +57,20 @@ npm run dev
 Adding New Medicines to Database Collection
 To add medicines to the database, run:
 
-bash
 npm run menu
 Edit items.csv file under assets/csv to change food items.
 
-Author
-Soham Kulkarni - Designing & Development
+## Contact Information
 
-Email: sohamsk13@example.com
+For any queries or collaboration opportunities, feel free to reach out:
 
-LinkedIn: Soham Kulkarni
+- **Name**: Soham S Kulkarni
+- **Email**: [sohamkulkarni1340@gmail.com](mailto:sohamkulkarni1340@gmail.com)
+- **Phone**: +91-9423446043
+- **LinkedIn**: [Soham Kulkarni](https://www.linkedin.com/in/soham-kulkarni-63b6b3250/)
+- **LeetCode**: [sohamkulkarni1340](https://leetcode.com/u/sohamkulkarni1340/)
+- **GeeksforGeeks**: [sohamkulkvzhk](https://www.geeksforgeeks.org/user/sohamkulkvzhk/)
+
+Feel free to contact me for any questions or feedback regarding this project!
+
+
