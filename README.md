@@ -29,7 +29,7 @@ DroneMedix is a revolutionary platform that delivers medicines to your doorstep 
   - Font Awesome for icons
 
 - **Drone Delivery**: Simulated concept for now, aiming to implement real drone deliveries.
-
+  
 ## Contact Information
 
 For any queries or collaboration opportunities, feel free to reach out:
@@ -40,6 +40,17 @@ For any queries or collaboration opportunities, feel free to reach out:
 
 
 Feel free to contact me for any questions or feedback regarding this project!
+
+## 📈 Use of the Project
+
+DroneMedix was built to address the challenges faced during times of emergency, particularly in the COVID-19 pandemic. With the rise in demand for contactless services and the difficulty of getting essential medicines during lockdowns, DroneMedix provided a quick, safe, and efficient solution for delivering medicines directly to customers’ doorsteps.
+
+The project aims to:
+- Useful in Covid-19 like Pandamics
+- Ensure safety by minimizing human contact through drone technology.
+- Provide fast and reliable delivery services for medicines.
+
+
 
 ## Installation
 
