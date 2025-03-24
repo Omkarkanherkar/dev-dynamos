@@ -17,6 +17,10 @@ DroneMedix is a revolutionary platform that delivers medicines to your doorstep 
 
 ## 📱 Technologies Used
 
+   -**Contenarizarion and Deployment**:
+   -Docker
+   -Render
+  
  - **Database**:
   - MongoDB
 
