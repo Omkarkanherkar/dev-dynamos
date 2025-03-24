@@ -4,16 +4,10 @@ const ejs = require("ejs");
 const expressLayouts = require("express-ejs-layouts");
 const cookieParser = require("cookie-parser");
 
-
-
 require("dotenv").config();
 
 const app = express();
 app.use(cookieParser());
-
-
-
-
 
 // Mongoose Connection
 const connectDatabase = async () => {
@@ -35,10 +29,6 @@ app.use("/css", express.static(__dirname + "/public/css/"));
 app.use("/js", express.static(__dirname + "/public/js/"));
 app.use("/img", express.static(__dirname + "/public/img/"));
 app.use("/assets", express.static(__dirname + "/assets/"));
-
-
-
-
 
 // Express Parsers
 app.use(express.json());
@@ -62,3 +52,4 @@ connectDatabase().then(() => {
     console.log(`Server is running on http://localhost:${PORT}`);
   });
 });
+
