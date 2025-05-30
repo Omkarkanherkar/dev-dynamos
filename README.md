@@ -41,9 +41,8 @@ DroneMedix is a revolutionary platform that delivers medicines to your doorstep 
 
 For any queries or collaboration opportunities, feel free to reach out:
 
-- **Name**: Soham S Kulkarni
-- **Email**: [sohamkulkarni1340@gmail.com](mailto:sohamkulkarni1340@gmail.com)
-- **LinkedIn**: [Soham Kulkarni](https://www.linkedin.com/in/soham-kulkarni-63b6b3250/)
+- **Name**: omkar kanherkar
+
 
 
 Feel free to contact me for any questions or feedback regarding this project!
